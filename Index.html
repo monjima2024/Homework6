@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title> My Favourite Hobby </title>
+    <link rel="stylesheet" href="style.css"/>
+        <script type="application/javascript" src="script.js">s</script>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  </head>
+  
+<body onload="showSlides(1);">
+    <h2>My Spaceship Gallery</h2>
+    <div class="container">
+        <div id="row1">
+            <span><img class="gridimage cursor" src="download.jpg" onclick="currentSlide(1)" alt="Shuttlecraft"/></span>
+            <span><img class="gridimage cursor" src="image.jpg" onclick="currentSlide(2)" alt="Space Freighter"/></span>
+            <span><img class="gridimage cursor" src="images.jpg" onclick="currentSlide(3)" alt="Battleship"/></span>
+        </div>  
+        <div id="row2">
+            <span><img class="gridimage cursor" src="images%20(1).jpg" onclick="currentSlide(4)" alt="Tourist Ship"/></span>
+            <span><img class="gridimage cursor" src="images%20(2).jpg" onclick="currentSlide(5)" alt="Space Shuttle"/></span>
+            <span><img class="gridimage cursor" src="images%20(3).jpg" onclick="currentSlide(6)" alt="Soyuz Station"/></span>
+        </div>
+
+        <div class="mySlides">
+          <img src="download.jpg" style="width:100%">
+        </div>
+
+      <div class="mySlides">
+          <img src="image.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+          <img src="images.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+          <img src="images%20(1).jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+          <img src="images%20(2).jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+          <img src="images%20(3).jpg" style="width:100%">
+      </div>
+        <div class="caption-container">
+            <p id="caption"></p>
+            <ul>
+                <li>o</li>
+                <li>o</li>
+                <li>o</li>
+                <li>o</li>
+                <li>o</li>
+                <li>o</li>
+            </ul>
+        </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</body>
+</html>
